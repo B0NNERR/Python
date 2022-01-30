@@ -2,9 +2,6 @@ from random import *
 
 x = randint(1, 100)
 
-
-
-
 while True:
     n = int(input())
     if n > x:
@@ -16,7 +13,6 @@ while True:
     else:
         print("Слишком мало, попробуйте еще раз")
         continue
-    
 
 print(f"\nСлучайное число = {x}"
       f"\nЧисло введеное пользователем = {n}")
