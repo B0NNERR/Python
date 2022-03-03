@@ -1,7 +1,7 @@
 from random import *
 
 
-def binary_search(mylist=[], n=None):
+def binary_search(mylist=[], n=0):
     low = 0
     high = len(mylist) - 1
     while low <= high:
